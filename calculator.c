@@ -6,14 +6,14 @@
 /* started at 30 june 11AM*/
 int calculator()
 {
-     int num1;
-     int num2;
+     double num1;
+     double num2;
      printf("Enter the first number of your choice!:  ");
-     scanf("%d", &num1);
+     scanf("%lf", &num1);
      printf("Enter the second number of your choice!:  ");
-     scanf("%d", &num2);
+     scanf("%lf", &num2);
      
-     printf("Answer: %d", num1 + num2);
+     printf("Answer is: %lf", num1 + num2);
   
      
     return 0;

@@ -3,7 +3,7 @@
 
 
 
-/* started at 30 june 11AM*/
+// uhmm just an addition calculator
 int calculator()
 {
      double num1;
